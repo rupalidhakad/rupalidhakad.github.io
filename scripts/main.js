@@ -3,15 +3,14 @@ myHeading.textContent = 'Hello world!!!';*/
 
 let myImage = document.querySelector('img');
 
-//removing onclick functinality on images.
-/*myImage.onclick = function() {
+myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/landscape.jpg') {
       myImage.setAttribute('src','images/kidssafety.jpg');
     } else {
       myImage.setAttribute('src','images/landscape.jpg');
     }
-}*/
+}
 
 // Personlized welcome message code
 let myButton = document.querySelector('button');
